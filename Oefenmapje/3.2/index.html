@@ -4,9 +4,45 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Form</title>
 </head>
 <body>
+    <form action="result.html" method="Post">
+
+    <div>
+        <label for="firstname">Voornaam</label>
+        <input type="text" id="firstname" name="firstname" >
+    </div>
+        
+    <div>
+        <label for="surname">achternaam</label>
+        <input type="text" id="surname" name="surname" >
+    </div>
+
+    <div>
+        <label for="password">wachtwoord</label>
+        <input type="password" id="password" name="password" >
+    </div>
+
+    <div>
+        <label for="date">reservering</label>
+        <input type="date" name="date" id="date" min="2022-09-15" >
+    </div>
+
+    <div>
+        <label for="gender">geslacht</label>
+        <div>
+    <label for="female">vrouw</label>
+    <input type="radio" name="gender" id="female" value="female">
+    <label for="male">man</label>
+    <input type="radio" name="gender" id="male" value="male">
+        </div>
+</div>
+
+    <button type="submit">verzenden</button>
+
+    </form>
     
 </body>
+
 </html>
