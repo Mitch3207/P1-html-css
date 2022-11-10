@@ -1,5 +1,5 @@
 h1 {
-    font-size: 24px;
+    font-size: 20px;
     color: blue;
     font-weight: bold;
     font-style: italic;
@@ -25,5 +25,15 @@ a {
 
 .bold{
     font-weight: bold;
+}
+
+p {
+    border-style: solid;
+    color: blue;
+}
+
+body {
+    background-color: black;
+    font-family: coldman;
 }
 
