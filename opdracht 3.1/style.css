@@ -18,6 +18,7 @@ nav {
   align-items: center;
   flex-wrap: wrap;
   margin: auto;
+  color: white;
   background: #00a8c7;
   justify-content: space-between;
 }
